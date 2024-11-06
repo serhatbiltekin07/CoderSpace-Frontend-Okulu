@@ -1,0 +1,28 @@
+.bgImage{
+    background-image:url("https://img.freepik.com/premium-photo/grainy-gradient-background-red-white-blue-colors-with-soft-faded-watercolor-border-texture_927344-24167.jpg");
+    width: 500px;
+    height: 250px;
+    background-position-x:center ;
+    background-position-y:center ;
+    background-size: cover;
+    color: rgb(15, 224, 67);
+}
+.title{
+    font-size: 30px;
+}
+.paragraf{
+    font-size: 24px;
+}
+@media secreen and (max-width:768px) {
+    .title{
+        font-size: 24px;
+    }
+    .paragraf{
+        font-size: 18px;
+    }
+    .bgImage{
+        width: 300px;
+        height: 150px;
+        color: rgb(153, 73, 16);
+    }
+}

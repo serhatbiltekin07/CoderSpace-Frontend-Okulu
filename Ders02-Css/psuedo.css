@@ -1,0 +1,55 @@
+.link{
+    color: rgb(249,126,3);
+}
+.link:active{
+    color: greenyellow;
+}
+.link:visited{
+    color: blue;
+}
+.link:hover{
+    color: blueviolet;
+}
+.list_item{
+    color: rgb(249,3,126);
+    list-style-type:none ;
+    font-size: 18px;
+}
+/* .list_item:first-child{
+    color: rgb(3,249,126);
+} */
+/* .list_item:last-child{
+    color: rgb(3,126,249);
+ } */
+/* .list_item:nth-child(even){
+    color: rgb(3,101,249);
+  } */
+
+/* Psuedo Class*/
+/* .list_item:nth-child(2){
+    color: rgb(3,101,249);
+} */
+
+/* .list_item::first-letter{
+    color: blue;
+    font-size: 44px;
+}
+p::first-letter{
+    color: blue;
+    font-size: 24px;
+}
+.text::first-line{
+    color: blue;
+    font-size: 24px;
+} */
+
+.text::after{
+    content: "Merhaba Ben Sona Eklendim";
+    color: rgb(3, 3, 228);
+    font-size: 24px;
+}
+.text::before{
+    content: "Merhaba Ben Başa Eklendim";
+    color: rgb(204, 126, 24);
+    font-size: 24px;
+}
